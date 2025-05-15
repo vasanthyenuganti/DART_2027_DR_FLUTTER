@@ -20,4 +20,6 @@ void main() {
   }
   print(rev);
 
+  // count the frequency of the elements in the list by using the map  [1,2,2,3,4,2,1]
+
 }
