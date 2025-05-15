@@ -28,15 +28,24 @@ void main() {
   print(s.indexOf("T"));
   print(s.lastIndexOf("."));
 
-  print(s.substring(3, 16));
+  // print(s.substring(3, 16));
   print(s.replaceAll("a", "AAA").toString().replaceFirst("AAA", "a"));
   print(s.replaceRange(0, 2, "They are"));
 
   print(s.split(" ").length);
 
-  print(s.splitMapJoin(""));
+  print(s.splitMapJoin(" "));
 
 
   // print();
   // print(s);
+
+
+  for (var i = 0; i < s.length; i++) {
+    print("ascii of ${s[i]} is ${s.codeUnitAt(i)}");
+  }
+
+  // reverse the string and make it to capital
+  // find the sum of the characters ascii values
+  
 }
