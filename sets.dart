@@ -14,7 +14,7 @@ void  main(){
   print(set);
 
   print(set.reduce((value, element) => value+element));
-  int sum = set.fold(10, (i,j)=>i+j);
+  int sum = set.fold(10, (i,j)=>i&j);
   print(sum);
 
 
